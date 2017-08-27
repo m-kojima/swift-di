@@ -12,6 +12,14 @@
 		D7807E461F53198100E8648B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7807E441F53198100E8648B /* Main.storyboard */; };
 		D7807E481F53198100E8648B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7807E471F53198100E8648B /* Assets.xcassets */; };
 		D7807E4B1F53198100E8648B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7807E491F53198100E8648B /* LaunchScreen.storyboard */; };
+		D7807E5A1F531C4500E8648B /* AppList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7807E531F531C4500E8648B /* AppList.swift */; };
+		D7807E5B1F531C4500E8648B /* AppRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7807E541F531C4500E8648B /* AppRepository.swift */; };
+		D7807E5C1F531C4500E8648B /* ConnectionConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7807E551F531C4500E8648B /* ConnectionConfigure.swift */; };
+		D7807E5D1F531C4500E8648B /* RecordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7807E561F531C4500E8648B /* RecordList.swift */; };
+		D7807E5E1F531C4500E8648B /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7807E571F531C4500E8648B /* Root.swift */; };
+		D7807E641F531C6300E8648B /* ApplicationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7807E621F531C6300E8648B /* ApplicationComponent.swift */; };
+		D7807E651F531C6300E8648B /* ApplicationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7807E631F531C6300E8648B /* ApplicationModule.swift */; };
+		D7807E671F531DA900E8648B /* SessionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7807E661F531DA900E8648B /* SessionComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		D7807E471F53198100E8648B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7807E4A1F53198100E8648B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7807E4C1F53198100E8648B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7807E531F531C4500E8648B /* AppList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppList.swift; sourceTree = "<group>"; };
+		D7807E541F531C4500E8648B /* AppRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRepository.swift; sourceTree = "<group>"; };
+		D7807E551F531C4500E8648B /* ConnectionConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionConfigure.swift; sourceTree = "<group>"; };
+		D7807E561F531C4500E8648B /* RecordList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordList.swift; sourceTree = "<group>"; };
+		D7807E571F531C4500E8648B /* Root.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		D7807E621F531C6300E8648B /* ApplicationComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationComponent.swift; sourceTree = "<group>"; };
+		D7807E631F531C6300E8648B /* ApplicationModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationModule.swift; sourceTree = "<group>"; };
+		D7807E661F531DA900E8648B /* SessionComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,8 @@
 		D7807E341F53198100E8648B = {
 			isa = PBXGroup;
 			children = (
+				D7807E611F531C5200E8648B /* Component */,
+				D7807E521F531C1400E8648B /* Classes */,
 				D7807E3F1F53198100E8648B /* SwiftDI */,
 				D7807E3E1F53198100E8648B /* Products */,
 			);
@@ -62,6 +80,28 @@
 				D7807E4C1F53198100E8648B /* Info.plist */,
 			);
 			path = SwiftDI;
+			sourceTree = "<group>";
+		};
+		D7807E521F531C1400E8648B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D7807E531F531C4500E8648B /* AppList.swift */,
+				D7807E541F531C4500E8648B /* AppRepository.swift */,
+				D7807E551F531C4500E8648B /* ConnectionConfigure.swift */,
+				D7807E561F531C4500E8648B /* RecordList.swift */,
+				D7807E571F531C4500E8648B /* Root.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D7807E611F531C5200E8648B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				D7807E621F531C6300E8648B /* ApplicationComponent.swift */,
+				D7807E631F531C6300E8648B /* ApplicationModule.swift */,
+				D7807E661F531DA900E8648B /* SessionComponent.swift */,
+			);
+			name = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +177,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7807E431F53198100E8648B /* ViewController.swift in Sources */,
+				D7807E641F531C6300E8648B /* ApplicationComponent.swift in Sources */,
+				D7807E5A1F531C4500E8648B /* AppList.swift in Sources */,
+				D7807E5E1F531C4500E8648B /* Root.swift in Sources */,
+				D7807E5D1F531C4500E8648B /* RecordList.swift in Sources */,
+				D7807E651F531C6300E8648B /* ApplicationModule.swift in Sources */,
+				D7807E671F531DA900E8648B /* SessionComponent.swift in Sources */,
 				D7807E411F53198100E8648B /* AppDelegate.swift in Sources */,
+				D7807E5C1F531C4500E8648B /* ConnectionConfigure.swift in Sources */,
+				D7807E5B1F531C4500E8648B /* AppRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +349,7 @@
 				D7807E511F53198100E8648B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

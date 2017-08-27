@@ -92,6 +92,7 @@
 				D7807E571F531C4500E8648B /* Root.swift */,
 			);
 			name = Classes;
+			path = SwiftDI/Classes;
 			sourceTree = "<group>";
 		};
 		D7807E611F531C5200E8648B /* Component */ = {
@@ -102,6 +103,7 @@
 				D7807E661F531DA900E8648B /* SessionComponent.swift */,
 			);
 			name = Component;
+			path = SwiftDI/Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
